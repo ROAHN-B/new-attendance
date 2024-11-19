@@ -1,0 +1,29 @@
+{
+    "name": "attendance-system",
+    "version": "1.0.0",
+    "description": "A simple attendance system using Node.js and PostgreSQL",
+    "main": "backend/server.js",
+    "scripts": {
+      "start": "node backend/server.js",
+      "dev": "nodemon backend/server.js"
+    },
+    "keywords": [
+      "attendance",
+      "system",
+      "nodejs",
+      "postgresql"
+    ],
+    "author": "Rohan Belsare",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.7.1",
+      "dotenv": "^10.0.0",
+      "body-parser": "^1.19.0",
+      "express-jwt": "^6.0.0",
+      "jwks-rsa": "^2.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
